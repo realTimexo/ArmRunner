@@ -1,0 +1,6 @@
+{
+  "name": "ARM64 Runner",
+  "image": "ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install -y qemu qemu-user-static",
+  "features": {}
+}
